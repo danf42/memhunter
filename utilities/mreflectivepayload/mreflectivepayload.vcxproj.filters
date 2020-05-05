@@ -10,10 +10,10 @@
     <ClCompile Include="$(SolutionDir)\utilities\common\customwintypes.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(SolutionDir)\utilities\mreflectivepayload\ReflectiveLoader.c" />
     <ClCompile Include="$(SolutionDir)\utilities\mreflectivepayload\mreflectivepayload.cpp" />
-    <ClCompile Include="$(SolutionDir)\utilities\mreflectivepayload\ReflectiveDLLInjection.h" />
-    <ClCompile Include="$(SolutionDir)\utilities\mreflectivepayload\ReflectiveLoader.h" />
+    <ClCompile Include="$(SolutionDir)\utilities\common\ReflectiveLoader.c" />
+    <ClCompile Include="$(SolutionDir)\utilities\common\ReflectiveDLLInjection.h" />
+    <ClCompile Include="$(SolutionDir)\utilities\common\ReflectiveLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />

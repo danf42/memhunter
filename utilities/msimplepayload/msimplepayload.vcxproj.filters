@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(SolutionDir)\utilities\mpayload\mpayload.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(SolutionDir)\utilities\mpayload\ReflectiveLoader.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(SolutionDir)\utilities\mpayload\ReflectiveDLLInjection.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="$(SolutionDir)\utilities\mpayload\ReflectiveLoader.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="$(SolutionDir)\utilities\common\dllcommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -22,6 +10,7 @@
     <ClCompile Include="$(SolutionDir)\utilities\common\customwintypes.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="$(SolutionDir)\utilities\msimplepayload\msimplepayload.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />

@@ -25,9 +25,4 @@
       <UniqueIdentifier>{aad7d0ee-844e-4ab2-9760-31576178f800}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\common\detours.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>
